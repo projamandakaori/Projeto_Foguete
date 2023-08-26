@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.CSS">
+  <title>Projeto foguete</title>
+ </head>
+ <body>
+  <header>
+    <br>
+   <h1>Projeto Foguete</h1>
+    <nav>
+     <a href="index.html">Menu principal &nbsp;&nbsp;</a>
+     <a href="Sobre.html">Sobre &nbsp;&nbsp;</a> 
+     <a href="Contato.html">Contato &nbsp;&nbsp;</a>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <br>
+      <h2>Vídeo sobre o Projeto Foguete</h2>
+      <br>
+      <video id="v1" width="700" height="450" controls="controls" onended="vidplay(2)">
+        <source src="video/video pt comp .mp4" type="video/mp4">
+        <object data="" width="700" height="450">
+        <embed width="700" height="450" src="video/video em portugues.mp4">
+        </object>
+        </video>
+        <hr>
+
+        
+        <script type="text/javascript">
+        
+        var video = document.getElementById("v1");
+        video.play();
+        
+        function vidplay(i) {
+        
+          var video = document.getElementById("v"+i);
+          if (video.paused) {
+            video.play();
+        
+          } else {
+            video.pause();
+        
+          }
+        
+        };
+        
+        </script>
+    </div>
+  </main>
+  <footer>
+    <p>Todos os direitos reservados, 2023</p>
+   </footer>
+</html>

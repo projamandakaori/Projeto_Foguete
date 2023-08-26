@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.CSS">
+  <title>  Rocket project</title>
+ </head>
+ <body>
+  <header>
+    <br>
+   <h1> Rocket Project</h1>
+    <nav>
+     <a href="index.html">Main Menu &nbsp;&nbsp;</a>
+     <a href="Sobre.html">About&nbsp;&nbsp;</a> 
+     <a href="Contato.html">Contect &nbsp;&nbsp;</a>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <br>
+        <h2>
+          Video about Project Rocket</h2>
+        <br>
+        <video id="v2" width="700" height="450" controls="controls" onended="vidplay(1)">
+        <source src="video/video ing comp" type="video/mp4">
+        <object data="" width="700" height="450">
+        <embed width="700" height="450" src="video/vidio em ingles.mp4">
+        </object>
+        </video>
+        <hr>
+        
+        <script type="text/javascript">
+        
+        var video = document.getElementById("v1");
+        video.play();
+        
+        function vidplay(i) {
+        
+          var video = document.getElementById("v"+i);
+          if (video.paused) {
+            video.play();
+        
+          } else {
+            video.pause();
+        
+          }
+        
+        };
+        
+        </script>
+    </div>
+  </main>
+  <footer>
+    <p>
+      All rights reserved, 2023</p>
+   </footer>
+</html>

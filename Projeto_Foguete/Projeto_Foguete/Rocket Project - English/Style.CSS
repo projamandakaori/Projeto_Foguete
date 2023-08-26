@@ -1,0 +1,109 @@
+
+
+*{
+    margin: 0%;    
+    padding: 0%;
+    border: 0%;
+   }
+   
+   
+   body{font-size: medium;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url("Imagem/estampa_ceu_estrelada_553_1_4b4b47d91a07686d0e156676efaaef95.webp");
+    width: 100%;
+    height: 100%;
+   }
+   
+   header{
+    width: 100%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    background-color: #151515;
+    border-bottom: 1px solid white;
+   }
+   
+   nav{position: relative;top: 50px;
+    color: white;
+    font-size: medium;
+    text-align: center;;
+   }
+   
+   a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+   }
+   
+   .container{
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: medium;
+    width: 80%;
+    position: relative;left: 10%;right: 10%;
+    height: 100%;
+    text-align: center;
+   }
+   
+   footer{
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    background-color: #151515;
+    border-top: 1px solid white;
+   
+   }
+
+   h2{
+    text-align: center;
+    font-size: 45px;
+   }
+
+   .banner{
+    display: block;
+    margin: auto;
+    width: 75%;
+   }
+   
+   p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   }
+
+.img{
+    width: 512px;
+    height: 419px;
+    position: relative;
+}
+
+figure{
+    height: 600px; 
+}
+
+.fi{
+    height: 575px;
+    width: 510px;
+}
+
+.destaque{
+    text-decoration:underline;
+    text-decoration-color: rgb(169, 243, 243);
+}
+
+#SMART{
+    width: 512px;
+    height: 419px;
+}
+
+#github{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
